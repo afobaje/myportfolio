@@ -1,0 +1,27 @@
+.aboutcard{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    place-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    place-items: center;
+}
+.aboutcard p{
+    text-align: start;
+    padding: 0rem 7rem;
+    font-size: 23px;
+    word-spacing: .5rem;
+    z-index: 1;
+}
+.blob{
+    width: 20rem;
+    position: absolute;
+    top: 45rem;
+    left: 10rem;
+    
+}
+
+
+
+  

@@ -1,0 +1,30 @@
+footer{
+    background-color: var(--cleanwhite);
+    max-height: 40rem;
+    margin-top: max(10rem);
+    margin-bottom: max(5rem);
+}
+.footh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.handles{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+}
+.handles a{
+    text-decoration: none;
+    color:var(--black);
+}
+.handles a:hover{
+    color:var(--rebeccapurple);
+    text-decoration: underline;
+    
+}
+.handles img{
+    object-fit: cover;
+}

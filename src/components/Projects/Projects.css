@@ -1,0 +1,74 @@
+.Projects{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+.Projects h2{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.config{
+    /* width: 25rem; */
+    width: 100%;
+    margin-top: 0;
+    object-fit: contain;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 15rem;
+}
+.config img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+
+}
+.cardone p{
+   
+    text-align: start;
+}
+.zeh{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proj{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+   scroll-snap-type: x mandatory;
+   scroll-padding: 0 24px;
+}
+
+.cardone{
+    display: flex;
+    box-shadow: 4px 5px 14px 3px grey;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 20rem;
+    place-content: flex-start;
+    align-items: center;
+    scroll-snap-type: start;
+    
+}
+.checkout{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 600;
+}
+.checkout:hover{
+    text-decoration: underline;
+    color:var(--rebeccapurple)
+}
+.cardone:hover{
+    transform: scale(1.2);
+    transition: transform 300ms ease-in-out 50ms;
+}
