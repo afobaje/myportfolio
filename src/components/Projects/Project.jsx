@@ -8,7 +8,7 @@ import Xchange from "../assets/xchangefx-netlify-app-1024x768desktop-9a5e32.jpg"
 
 const Project = () => {
   return (
-    <article className="Projects">
+    <article className="Projects" id='proj'>
       <h2>Our Projects</h2>
       <div className="proj">
         <div className="cardone">

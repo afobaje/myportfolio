@@ -1,5 +1,6 @@
 import React from "react";
 import "../header/css/Header.css";
+
 import Transistor from "../header/css/transistor-man-places-cards-on-a-kanban-board.png";
 import Girl from "../header/css/lagom-freelance-girl-working-at-home-next-to-her-dog.png";
 
@@ -12,16 +13,16 @@ const Header = () => {
         </span>
         <ul className="links">
         <li>
-            <a href="http://">Projects</a>
+            <a href='#proj'>Projects</a>
           </li>
           <li>
-            <a href="http://">Skills</a>
+            <a href="#skill">Skills</a>
           </li>
           <li>
-            <a href="http://">About Us</a>
+            <a href="#about">About Us</a>
           </li>
           <li>
-            <a href="http://">Contact Us</a>
+            <a href="https://ikukoyidave@gmail.com">Contact Us</a>
           </li>
         
          

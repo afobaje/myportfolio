@@ -8,7 +8,7 @@ import "../Skills/Skills.css";
 
 const Skills = () => {
   return (
-    <article className="skills">
+    <article className="skills" id="skill">
       <h2>Skills</h2>
       <div className="actual">
         <div className="frame">
